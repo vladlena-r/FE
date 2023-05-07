@@ -1,6 +1,33 @@
+@font-face {
+    font-family: "Bodoni";
+    font-style: normal;
+    font-weight: 600;
+    src: local("Bodoni"),
+    url("../font/static/BodoniModa_18pt-Black.ttf") format("black"),
+    url("../font/static/BodoniModa_18pt-BlackItalic.ttf") format("blackitalic");
+    font-display: swap;    
+}
+
+@font-face {
+    font-family: "BodoniBold";
+    font-style: normal;
+    font-weight: 600;
+    src: local("Bodoni"),
+    url("../font/static/BodoniModa_18pt-Bold.ttf") format("bold"),
+    url("../font/static/BodoniModa_18pt-BoldItalic.ttf") format("bolditalic");
+    font-display: swap;    
+}
+
 header{
     font-size: 50px;
     color: darkblue;
+    font-family: 'Bodoni','Times New Roman', serif;
+    font-style: italic;
+}
+p{
+    font-size: 20px; 
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
 }
 
 img {
@@ -9,16 +36,134 @@ img {
     object-fit: cover;
 }
 
-p{
-    font-size: 20px;
-    border: 1px solid blue;
-    padding: 24px;
-    margin: 10px;
-    background-color:cornflowerblue;
-}
 span{
     font-style: italic;
-    font-size: 15px;
+    font-size: 20px;
     padding: 10px;
     margin: 1px;
 }
+
+h1{
+    font-size: 50px;
+    color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+h3{
+    font-style: italic;
+    font-size: 20px;
+    padding: 10px;
+    margin: 1px;
+    color: rgba(35, 35, 140, 0.563); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+    font-size: 30px;
+    padding: 5px;
+}
+
+.TimeToTravel img{
+
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+}
+.AboutUs {
+    line-height: 28px;
+    border: 2px solid;
+    border-color: blue;
+    margin: 20px 10px 20px 2px;
+    background-color: rgba(83, 54, 198, 0.289);
+   
+}
+
+.AboutUs p{
+    font-size: 18px;
+    padding: 5px;
+}
+
+.Contacts p{
+    font-size: 24px;
+    padding: 5px;
+    line-height: 28px;
+    border: 2px solid;
+    border-color: blue;
+    margin: 20px 10px 20px 2px;
+    background-color: rgba(83, 54, 198, 0.289);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.OurBestPrice{
+    font-size: 25px;
+    border: 2px solid;
+    padding: 5px;
+    border-color: blue;
+    margin: 20px 10px 20px 2px;
+    background-color: rgba(83, 54, 198, 0.289);
+    
+}
+.fa-facebook{
+    font-size: 50px;
+    color: rgb(45, 127, 202);
+}
+.fa-instagram{
+    font-size: 50px;
+    color: rgb(45, 127, 202);
+}
+ol{
+    border: 2px solid;
+    padding: 10px;
+    list-style: circle;
+    border-color: blue;
+    margin: 20px 10px 20px 30px;
+    font-size: 20px;  
+}
+ul{
+    padding: 20px;
+    margin: 20px 10px 20px 30px;
+    list-style: circle;
+    border-color: blue;
+    font-size: 20px;  
+}
+
+    table{
+        width: 80%;
+        border-collapse: collapse;
+    }
+    table, th,td{
+        border: 1px solid black;
+        margin: 24px;  
+    }
+    th,td{
+        padding: 5px;
+    }
+    
+    td{
+        text-align: center;
+    }
+
+    
+    tr:nth-child(2n+1) {
+        background-color: rgb(196, 182, 215);
+        color: black;
+    }
+    
+    tr:nth-child(1n+1) {
+        background-color: rgb(196, 182, 215);
+        color: black;
+    }
+
+    tr:nth-child(0n+2) {
+        background-color: rgb(120, 73, 186);
+        color:white;
+    }
+    
+    tr:first-child {
+        background-color: rgba(38, 38, 179, 0.496);
+        color: white;
+    }
+    
+    tr:last-child {
+        background-color: rgb(155, 62, 155);
+        color: white;}
